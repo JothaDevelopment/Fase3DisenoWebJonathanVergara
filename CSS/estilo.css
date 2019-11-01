@@ -1,0 +1,44 @@
+nav, footer, .contenedor, aside, .superior 
+{
+   max-width: 75%;
+   margin: auto;
+    
+}
+.superior
+{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.titulo
+{
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav
+{
+    background-color: #005883; 
+}
+.contenedor
+{
+    background-color: #F0B429;
+    
+}
+.principal
+{
+    background-color: beige;
+    
+}
+footer
+{
+    background-color: #005883;
+    text-align: center;
+     
+}
+aside
+{
+    background-color: #F0B429";
+    display: inline-block;
+    width: 29%;
+}
