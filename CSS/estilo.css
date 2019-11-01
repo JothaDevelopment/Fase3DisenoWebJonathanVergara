@@ -2,6 +2,7 @@ nav, footer, .contenedor, aside, .superior
 {
    max-width: 75%;
    margin: auto;
+   border-radius: 0.3em;
     
 }
 .superior
@@ -38,7 +39,49 @@ footer
 }
 aside
 {
-    background-color: #F0B429";
+    background-color: #F0B429;
     display: inline-block;
     width: 29%;
+}
+/*Menú*/
+.menu li
+{
+    display: inline-block;
+
+}
+li a, btnDesplegable
+{
+    display: inline-block;
+    color: black;
+    padding: 0.3em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+.contenidoDesplegable
+{
+    display: none;
+    position: absolute;
+    min-width: 8em;
+}
+.contenidoDesplegable a
+{
+    background-color: #005883;
+    color: black;
+    padding: 0.3em 1em;
+    display: block;
+    text-align: left;
+}
+.contenidoDesplegable a:hover
+{
+    background-color: #F0B429;
+}
+.desplegable:hover .contenidoDesplegable
+{
+    
+    display: block;
+    
+}
+li a:hover
+{
+    background-color: #F0B429;
 }
