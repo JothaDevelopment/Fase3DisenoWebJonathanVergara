@@ -1,9 +1,18 @@
-nav, footer, .contenedor, aside, .superior 
+nav,footer, .contenedor, aside, .superior
 {
-   max-width: 75%;
+   max-width: 79%;
    margin: auto;
    border-radius: 0.3em;
     
+}
+.principal
+{
+   max-width: 75%;
+   margin: auto;
+   border-radius: 0.1em;
+   border-width: 0.3em;
+   border-color: lightgrey;
+   background-color: #ffffff;
 }
 .superior
 {
@@ -23,36 +32,49 @@ nav
 }
 .contenedor
 {
-    background-color: #F0B429;
-    
-}
-.principal
-{
-    background-color: beige;
+    background-color: #ffffff;
+    border-inline-color: gray;
     
 }
 footer
 {
     background-color: #005883;
     text-align: center;
+    color: #ffffff;
      
 }
 aside
 {
-    background-color: #F0B429;
+    background-color: #ffffff;
     display: inline-block;
-    width: 29%;
+    width: 80%;
+    text-align: center;
 }
 /*Menú*/
 .menu li
 {
     display: inline-block;
-
+    
+}
+.menu, footer
+{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: large;
 }
 li a, btnDesplegable
 {
     display: inline-block;
-    color: black;
+    color: #ffffff;
+    padding: 0.3em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+li a, btnDesplegable2
+{
+    display: inline-block;
+    color: #ffffff;
     padding: 0.3em 1em;
     text-align: center;
     text-decoration: none;
@@ -63,19 +85,43 @@ li a, btnDesplegable
     position: absolute;
     min-width: 8em;
 }
+.contenidoDesplegable2
+{
+    display: none;
+    position: absolute;
+    min-width: 8em;
+}
 .contenidoDesplegable a
 {
     background-color: #005883;
-    color: black;
+    color: #ffffff;
     padding: 0.3em 1em;
     display: block;
     text-align: left;
 }
-.contenidoDesplegable a:hover
+.contenidoDesplegable2 a
+{
+    background-color: #005883;
+    color: #ffffff;
+    padding: 0.3em 1em;
+    display: block;
+    text-align: left;
+}
+.contenidoDesplegable a:hover 
+{
+    background-color: #F0B429;
+}
+.contenidoDesplegable2 a:hover 
 {
     background-color: #F0B429;
 }
 .desplegable:hover .contenidoDesplegable
+{
+    
+    display: block;
+    
+}
+.desplegable2:hover .contenidoDesplegable2
 {
     
     display: block;
